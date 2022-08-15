@@ -91,7 +91,7 @@ terraform {
 
 ![Terraform init](./media/tfinit.png)
 
-Check S3 in AWS Console to confirm s3 configuration.
+Check AWS Console to confirm S3 configuration.
 
 ![S3 state file](./media/s3state.png)
 
