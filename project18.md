@@ -112,3 +112,5 @@ Run `terraform destroy`, but before we run it, we should take note that terrafor
 
 ![Terraform destroy](./media/tfdestroy.png)
 
+
+[Here](https://github.com/enyioman/terraform-project18) is the repo.
