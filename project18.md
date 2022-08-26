@@ -3,8 +3,6 @@
 
 ## STEP 1: Refactoring
 
-The aim of this project is to refactor our code to use modules.
-
 - Create a directory called modules
 - Within the modules directory create directories named VPC, Security, EFS, RDS, ALB, Autoscaling, Compute.
 - Within this directory created, we are going to copy files related to the named directory e.g For the VPC directory, the files needed to setup our VPC are internet-gateway, Nat-gateway, Routes etc. Also create variables.tf file in all the created directories, so the content of the directory will have a variables.tf file and other files related to the name of the directories.
@@ -26,7 +24,7 @@ Once done, execute `terraform plan` and then `terraform apply`.
 ![Terraform state list](./media/statelist2.png)
 
 
-## STEP 2: Configuring A Backend On The S3 Bucket
+## STEP 2: Configuring A Backend With An S3 Bucket
 
 So far, we have been using the default backend, which is the local backend – it requires no configuration, and the state file is stored locally. This mode can be suitable for learning purposes, but it is not a robust solution, so it is better to store it in some more reliable and durable storage.
 
